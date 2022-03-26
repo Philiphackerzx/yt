@@ -1,6 +1,5 @@
 termux-setup-storage
 install=`cat 2x.io`
-echo $install && read p
 if [ $install -eq 0 ]
 then
 clear
