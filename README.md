@@ -5,14 +5,10 @@ This is a tool made by Philiphacker using bash programing to download Audio in 2
 `pkg install git -y` <br/><br/>
 `git clone https://github.com/Philiphackerzx/yt.git` <br/><br/>
 `cd yt` <br/><br/>
-`sh start`
+`sh install`
 <br/><br/>
 If Anything Asking to allow, allow it by pressing "allow" or else typing "y" <br/>
 y means yes.
-
-# Installation Info
-First time Installation took 5~10 mins as it install automatically all requirements to use the tool. <br/><br/>
-After that you can use instantly without any waiting time.
 
 # How to use ?
 `sh start` <br/><br/>
