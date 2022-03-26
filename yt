@@ -1,0 +1,29 @@
+mkdir "/sdcard/download/www.philiphacker.in"
+clear
+echo 
+printf "Paste URL : " && read url
+echo
+echo Starting Download.. Please wait..
+echo
+name=`youtube-dl --get-id "$url"`
+clear
+echo
+echo Downloading Audio from youtube video..
+echo Please wait..
+echo
+youtube-dl -x --audio-format mp3 -o "/sdcard/download/www.philiphacker.in/$name.mp3" $url
+clear
+echo
+echo Speeding up the audio 2x speed..
+echo
+ffmpeg -i "/sdcard/download/www.philiphacker.in/$name.mp3" -filter:a "atempo=1.7" -c:a libmp3lame -q:a 4 "/sdcard/download/www.philiphacker.in/2x_$name.mp3"
+rm "/sdcard/download/www.philiphacker.in/$name.mp3"
+clear
+echo
+echo "2x_$name.mp3 - Audio Saved ✓"
+echo
+echo "Path : "
+echo "» internal storage"
+echo " » download "
+echo "  » www.philiphacker.in » (here)"
+echo
