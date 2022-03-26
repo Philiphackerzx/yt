@@ -9,10 +9,10 @@ echo Starting One Time Installation..
 echo Please wait..
 echo
 pkg install python -y
-pkg install ffmpeg --y
+pkg install ffmpeg -y
 pip install youtube-dl
+echo 2>2x.io
 sh start
 else
-echo 2>2x.io
 sh start
 fi
