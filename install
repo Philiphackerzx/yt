@@ -1,0 +1,15 @@
+clear
+echo
+echo www.philiphacker.in
+echo
+pkg install python -y
+pkg install ffmpeg -y
+pkg install openssl -y
+pip install --upgrade pip
+pip install youtube-dl
+clear
+echo
+echo Installation done ✓
+echo press any key to open real program ..
+echo
+read p && sh yt
