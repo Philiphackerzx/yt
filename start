@@ -1,6 +1,6 @@
 termux-setup-storage
 install=`cat 2x.io`
-if [ "$install" == "0" ];
+if [ $install==0 ];
 then
 clear
 echo
@@ -10,7 +10,7 @@ echo
 pkg install python -y
 pkg install ffmpeg -y
 pip install youtube-dl
-echo 2>2x.io
+echo www.philiphacker.in >2x.io
 sh start
 else
 sh start
