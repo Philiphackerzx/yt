@@ -7,6 +7,10 @@ This is a tool made by Philiphacker using bash programing to download Audio in 2
 `cd yt` <br/><br/>
 `sh start`
 
+# Installation Info
+First time Installation took 5~10 mins as it install automatically all requirements to use the tool. <br/><br/>
+After that you can use instantly without any waiting time.
+
 # How to use ?
 `sh start` <br/><br/>
 `paste the youtube video url`
